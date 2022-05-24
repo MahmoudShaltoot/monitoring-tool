@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "jwtPrivateKey",
+  "db": {
+    "uri": "mongodb://localhost/dev-monitoring-tool"
+  }
+}

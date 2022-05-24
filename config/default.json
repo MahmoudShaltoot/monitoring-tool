@@ -1,0 +1,18 @@
+{
+  "jwtPrivateKey": "jwtPrivateKey",
+  "db": {
+    "uri": "mongodb://localhost/monitoring-tool"
+  },
+  "message_queue_url": "amqp://localhost",
+  "pushover": {
+    "api_url": "https://api.pushover.net/1/messages.json",
+    "group_name": "monitoring-tool-group",
+    "group_key": "ghdvmbpok3cbd4717yi8pt7jzefvhv",
+    "app_token": "ay4d51b854rizvx9ofykh4q2bydvme",
+    "subscription_link": "https://pushover.net/subscribe/monitoring-tool-t1q47m9zhyuanp2",
+    "message": {
+      "title": "ALERT",
+      "body": "Your api %s is DOWN"
+    }
+  }
+}
