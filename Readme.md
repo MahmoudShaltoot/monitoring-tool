@@ -12,7 +12,7 @@ A `RESTful` API server with a set of routes providing monitoring service for API
 
 First, ensure you have the following installed:
 
-1. Node - Download and Install latest version of Node: [NodeJS](http://http://nodejs.org)
+1. Node - Download and Install latest version of Node: [NodeJS](https://nodejs.org/en)
 2. RabbitMQ - Download and Install [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
 
 
