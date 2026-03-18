@@ -1,11 +1,5 @@
 # monitoring-tool-app
-A `RESTful` API server with a set of routes providing monitoring service for APIs.
-
-## Features
-- TypeScript
-- Node.js
-- RabbitMQ
-- Cronjobs
+Monitoring service for APIs which periodically checks service status and immediately sends push notifications to subscribed devices when downtime is detected
 
 # Running Server locally
 ## Prerequisites
@@ -24,8 +18,6 @@ Please find the documentation describing the system architecture here: [https://
 
 ## Install dependencies
 
-You'll need to download some node modules defined into `package.json` file.
-
 ```
 npm install
 ```
@@ -36,16 +28,3 @@ npm install
 npm start
 ```
 
-You'll have available the following `RESTful` services:
-
-```
-POST http://localhost:3000/users
-POST http://localhost:3000/auth
-
-POST http://localhost:3000/checks
-PUT http://localhost:3000/checks/:id
-
-POST http://localhost:3000/reports
-```
-
-If you want to change the port, please update `index.ts` file.
