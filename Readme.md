@@ -1,4 +1,4 @@
-# monitoring-tool-app
+# monitoring-tool
 Monitoring service for APIs which periodically checks service status and immediately sends push notifications to subscribed devices when downtime is detected
 
 # Running Server locally
